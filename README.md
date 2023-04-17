@@ -60,10 +60,10 @@ npm run start or npm run dev
 POST /eshop/api/v1/auth/signup  
 Sample request body: 
 {
-    "userId": "pratham06",
-    "password": "Prathamesh@123",
-    "firstName": "Prathamesh",
-    "lastName": "Lakhapati",
+    "userId": "Anil",
+    "password": "Anil@123",
+    "firstName": "Anil",
+    "lastName": "Anil",
     "email": "prathmeshlakhpati@gmail.com",
     "contactNumber": 9764941234
 }
@@ -71,9 +71,9 @@ Sample request body:
 Sample response body 
 {
     "_id": "643902bb7fc2c7f8702514f4",
-    "firstName": "Prathamesh",
-    "lastName": "Lakhapati",
-    "email": "prathmeshlakhpati@gmail.com"
+    "firstName": "Anil",
+    "lastName": "Bora",
+    "email": "anilkumarbora14310@gmail.com"
 }
 ```
 
@@ -83,13 +83,13 @@ POST /eshop/api/v1/auth/signin
 Sample request body: 
 {
     "email": "prathmeshlakhpati@gmail.com",
-    "password": "Prathamesh@123",
+    "password": "Anil@123",
 }
 
 Sample response body 
 {
     "email": "prathmeshlakhpati@gmail.com",
-    "name": "Prathamesh Lakhapati",
+    "name": "Anil Bora",
     "isAuthenticated": true,
     "x-auth-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MzkwMmJiN2ZjMmM3Zjg3MDI1MTRmNCIsInVzZXJJZCI6InByYXRoYW0wNiIsInJvbGUiOiJVU0VSIiwiaWF0IjoxNjgxNDU3OTkyLCJleHAiOjE2ODE1NDQzOTJ9.uvZ1_KPdHEURyxjgmWB02l_Arwj-pWciUroaLjF3vP8"
 }
@@ -380,8 +380,8 @@ Sample response body :
         "_id": "643902bb7fc2c7f8702514f4",
         "userId": "pratham06",
         "email": "prathmeshlakhpati@gmail.com",
-        "firstName": "Prathamesh",
-        "lastName": "Lakhapati",
+        "firstName": "Anil",
+        "lastName": "Bora",
         "password": "$2a$08$WIxGAZt.wpXGiz5JvTNvoulZgRZLIjJQtK/XcAGuUuq.64vNqYTEi",
         "contactNumber": "9764946063",
         "role": "USER",

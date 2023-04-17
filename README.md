@@ -64,7 +64,7 @@ Sample request body:
     "password": "Anil@123",
     "firstName": "Anil",
     "lastName": "Anil",
-    "email": "prathmeshlakhpati@gmail.com",
+    "email": "anilkumarbora14310@gmail.com",
     "contactNumber": 9764941234
 }
 
@@ -82,13 +82,13 @@ Sample response body
 POST /eshop/api/v1/auth/signin  
 Sample request body: 
 {
-    "email": "prathmeshlakhpati@gmail.com",
+    "email": "anilkumarbora14310@gmail.com",
     "password": "Anil@123",
 }
 
 Sample response body 
 {
-    "email": "prathmeshlakhpati@gmail.com",
+    "email": "anilkumarbora14310@gmail.com",
     "name": "Anil Bora",
     "isAuthenticated": true,
     "x-auth-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MzkwMmJiN2ZjMmM3Zjg3MDI1MTRmNCIsInVzZXJJZCI6InByYXRoYW0wNiIsInJvbGUiOiJVU0VSIiwiaWF0IjoxNjgxNDU3OTkyLCJleHAiOjE2ODE1NDQzOTJ9.uvZ1_KPdHEURyxjgmWB02l_Arwj-pWciUroaLjF3vP8"
@@ -378,8 +378,8 @@ Sample response body :
     },
     "userId": {
         "_id": "643902bb7fc2c7f8702514f4",
-        "userId": "pratham06",
-        "email": "prathmeshlakhpati@gmail.com",
+        "userId": "anilkumarbora14",
+        "email": "anilkumarbora14310@gmail.com",
         "firstName": "Anil",
         "lastName": "Bora",
         "password": "$2a$08$WIxGAZt.wpXGiz5JvTNvoulZgRZLIjJQtK/XcAGuUuq.64vNqYTEi",

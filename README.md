@@ -14,7 +14,7 @@ secret=jwt_secret_key
 ```
 
 The 'ADMIN' user has to be provided in pre-setup data. The username for the admin user is 'admin',
-the email is 'admin@upgrad.com' and the password is 'password'.
+the email is 'admin@gmail.com.com' and the password is 'password'.
 
 Configure it manually into mongodb database or 
 <You can add it into database as user then change its role to "ADMIN">. Note: Use API enpoint /eshop/api/v1/auth/signup
@@ -24,7 +24,7 @@ Configure it manually into mongodb database or
     "$oid": "64383b3ec33ee39c0f6885cb"
   },
   "userId": "admin",
-  "email": "admin@upgrad.com",
+  "email": "admin@gmail.com.com",
   "firstName": "admin",
   "lastName": "admin",
   "password": "$2a$08$fo1mKTqe8I2hKZY2OBAnBeDlxllB5L7XQyHzCBqSnQSrrksHrIthy",
@@ -60,20 +60,20 @@ npm run start or npm run dev
 POST /eshop/api/v1/auth/signup  
 Sample request body: 
 {
-    "userId": "Anil",
-    "password": "Anil@123",
-    "firstName": "Anil",
-    "lastName": "Anil",
-    "email": "anilkumarbora14310@gmail.com",
+    "userId": "bhavanthi",
+    "password": "bhavanthi@123",
+    "firstName": "bhavanthi",
+    "lastName": "bhavanthi",
+    "email": "bhavanthibora14310@gmail.com",
     "contactNumber": 9764941234
 }
 
 Sample response body 
 {
     "_id": "643902bb7fc2c7f8702514f4",
-    "firstName": "Anil",
+    "firstName": "bhavanthi",
     "lastName": "Bora",
-    "email": "anilkumarbora14310@gmail.com"
+    "email": "bhavanthibora14310@gmail.com"
 }
 ```
 
@@ -82,14 +82,14 @@ Sample response body
 POST /eshop/api/v1/auth/signin  
 Sample request body: 
 {
-    "email": "anilkumarbora14310@gmail.com",
-    "password": "Anil@123",
+    "email": "bhavanthibora14310@gmail.com",
+    "password": "bhavanthi@123",
 }
 
 Sample response body 
 {
-    "email": "anilkumarbora14310@gmail.com",
-    "name": "Anil Bora",
+    "email": "bhavanthibora14310@gmail.com",
+    "name": "bhavanthi Bora",
     "isAuthenticated": true,
     "x-auth-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MzkwMmJiN2ZjMmM3Zjg3MDI1MTRmNCIsInVzZXJJZCI6InByYXRoYW0wNiIsInJvbGUiOiJVU0VSIiwiaWF0IjoxNjgxNDU3OTkyLCJleHAiOjE2ODE1NDQzOTJ9.uvZ1_KPdHEURyxjgmWB02l_Arwj-pWciUroaLjF3vP8"
 }
@@ -378,9 +378,9 @@ Sample response body :
     },
     "userId": {
         "_id": "643902bb7fc2c7f8702514f4",
-        "userId": "anilkumarbora14",
-        "email": "anilkumarbora14310@gmail.com",
-        "firstName": "Anil",
+        "userId": "bhavanthibora14",
+        "email": "bhavanthibora14310@gmail.com",
+        "firstName": "bhavanthi",
         "lastName": "Bora",
         "password": "$2a$08$WIxGAZt.wpXGiz5JvTNvoulZgRZLIjJQtK/XcAGuUuq.64vNqYTEi",
         "contactNumber": "9764946063",
